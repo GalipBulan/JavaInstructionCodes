@@ -10,11 +10,14 @@ public class C07_ImmutableString {
 
         System.out.println(str); // JAVA CANDİR
 
-         // Immutable classlardan olusturulan bir objenin degeri degistirilemez
-         // eger atama yaparsak java degerini degistirmez bunun yerine yeni bir obje olusrurulur
-         // ve bu yeni objeye yeni atadigimiz degeri atar.
-         // Eski obje bosa cikar ve garbere collector ( java copcusu) tarafindan silinmeyi bekler
+         /*
 
+         Immutable classlardan olusturulan bir objenin degeri degistirilemez.
+         Eger atama yaparsak java degerini degistirmez bunun yerine yeni bir obje olusrurulur.
+         Ve bu yeni objeye yeni atadigimiz degeri atar.
+         Eski obje bosa cikar ve garbege collector ( java copcusu) tarafindan silinmeyi bekler.
+
+          */
 
     }
 }

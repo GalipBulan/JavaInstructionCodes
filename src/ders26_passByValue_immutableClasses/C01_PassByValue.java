@@ -10,13 +10,13 @@ public class C01_PassByValue {
         System.out.println(indirimUygulama(fiyat)); // 90
         System.out.println(indirimUygulama(fiyat)); // 90
 
-        System.out.println(fiyat); // 100  Fakat methodu cagirmadan normal yazdirirsak normal fiyati yazar
+        System.out.println(fiyat); // 100  Fakat methodu cagirmadan normal yazdirirsak normal fiyati yazar.
 
-        // Bu PassByValue dir //
+        // Bu PassByValue dir // Kopya variable uzerinde yapilacak degisikler asil variable yi etkilemez.
+
 
         // Eger method icinde yapilan degisikligin main method icin de
         // gecerli olmasini istersek main method icerisinde atama yapmamiz gerekir.
-
 
         fiyat = indirimUygulama(fiyat);
 
