@@ -17,16 +17,16 @@ public class AEncapsuleClass {
     // setter method'u lazim
     private String hemsireIsmi;
     private String hemsireAdresi;
-    // bu instance variable'lara herkes ulasabilsin
-    // bu durumda public yapmak akla gelen ilk cozum olacaktir
-    // bu variable'lari public yapmak yerine
-    // private yapip, getter ve setter olusturmak da
-    // ayni islevi gorur
+    // Bu instance variable'lara herkes ulasabilsin
+    // bu durumda public yapmak akla gelen ilk cozum olacaktir.
+    // Bu variable'lari public yapmak yerine
+    // private yapip, getter ve setter olusturmak da ayni islevi gorur.
+
 
     public String getHemsireIsmi() {
         return hemsireIsmi;
     }
-    public void setHemsireIsmi(String hemsireIsmi) {
+    public void setHemsireIsmi (String hemsireIsmi) {
         this.hemsireIsmi = hemsireIsmi;
     }
     public String getHemsireAdresi() {
