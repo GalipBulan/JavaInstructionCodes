@@ -17,8 +17,8 @@ public class C01_Encapsulation {
         System.out.println(pers1.getHastaneIsmi()); // Yildiz Hastanesi // Getter methodu onceden atanmis degeri getirir
         // ve gormemizi saglar.
 
-        pers1.setHastaUcreti(500); // Buiraya bir deger yazmak sorundayiz.Sadece atama yapariz fakat yazdiramayiz.
-        // Cunku setter methodu atama yapar fakat goremez
+        pers1.setHastaUcreti(500); // Buraya bir deger yazmak zorundayiz.Sadece atama yapariz fakat yazdiramayiz.
+        // Cunku setter methodu atama yapar fakat goremez.
 
 
         // getter ve setter method'lari
@@ -26,7 +26,7 @@ public class C01_Encapsulation {
         // kullanicilarin islevi iyi anlamasi icin kullanilir
 
         System.out.println(pers1.getHemsireAdresi()); // önceden atanmis degeri getirip yazdiririz
-        pers1.setHemsireAdresi("Istanbul"); // Set adip atama yapariz
+        pers1.setHemsireAdresi("Istanbul"); // Set adip atama yapariz.
         System.out.println(pers1.getHemsireIsmi());
 
 
