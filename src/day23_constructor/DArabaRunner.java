@@ -35,6 +35,19 @@ public class DArabaRunner {
 
         System.out.println(arb3);
 
+        Daraba arb4 = new Daraba();
+
+       arb4.marka = "Toyota";
+       arb4.model = "Corolla";
+       arb4.yil = 2012;
+       arb4.yakit ="Elektro";
+       arb4.fiyat = 24444;
+
+        System.out.println(arb4.marka );
+
+
+
+
 
 
 

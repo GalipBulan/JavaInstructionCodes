@@ -12,7 +12,6 @@ public class EChild extends DParent{
 
         child1.isEnough= false;
 
-
     }
 
 }

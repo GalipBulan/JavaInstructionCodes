@@ -2,8 +2,9 @@ package day30_encapsulation;
 
 public class AEncapsuleClass {
     private String hastaneIsmi="Yildiz Hastanesi";
+
     public void setHastaUcreti(int hastaUcreti) {
-        this.hastaUcreti = hastaUcreti;
+    this.hastaUcreti = hastaUcreti;
     }
     public String getHastaneIsmi() {
         return hastaneIsmi;

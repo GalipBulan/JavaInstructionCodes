@@ -11,6 +11,11 @@ public class HArabaRanner {
         arb1.yil=2020;
         arb1.fiyat=100000;
 
+        // Onceki class da parantez icinde paremetreler atayarak bir constructor olusturduk.
+        // Bundan sonraki claslarda bu class ismini kullanarak  yeni objeler olusturabiliriz
+        // Bu objelere parantez icinde kolayca deger atayabiliriz.
+        // Biz sirayla dgerleri yazariz parametreler otomatik olarak gelir.
+
         HAraba arb2= new HAraba("Honda", "Civic", "Benzin", 2011, 11000 );
 
         System.out.println(arb2);
@@ -26,6 +31,10 @@ public class HArabaRanner {
         HAraba arb5=new HAraba("mercedes", "B200" ,"lpg" , 2020, 100000);
 
         System.out.println(arb5);
+
+        HAraba arb6 = new HAraba("Toyota", "Corollar", "Elektro", 2012, 345566);
+
+        System.out.println(arb6);
 
 
 

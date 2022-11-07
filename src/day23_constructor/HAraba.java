@@ -12,6 +12,9 @@ public class HAraba {
 
     public HAraba (String mrk, String mdl, String ykt, int yl, int fyt){
 
+        // 5 parametresi olan bin constructor olusturduk. Ilk olrak parantez icinde atama yaptik
+        // Daha sonra bu atamalarin ne hangi ifadeye esit oldugunu asagida tekrar atayarak belirttik.
+
         marka=mrk;
         model=mdl;
         yakit=ykt;
@@ -30,12 +33,12 @@ public class HAraba {
 
     }
 
-    // Biz gozle gorunur herhangi bir constructor olusturdugumzda java default olani siler
-    // Bu durumda daha onve olusturulmus oznelerin sorun olmamasi icin class a
-    // parametresiz bir constructor eklemek faydali olur
+    // Biz gozle gorunur herhangi bir constructor olusturdugumzda java default olani siler.
+    // Bu durumda daha once olusturulmus oznelerin sorun olmamasi icin class a
+    // parametresiz bir constructor eklemek faydali olur.
 
     public HAraba() {
-        // Gorunur durumdaki parametresiz constroctor default constructor degildir
+        // Gorunur durumdaki parametresiz constroctor default constructor degildir.
         // Bir class da gozle gorunen bir constructor varsa default bir constructor yoktur.
         // Bu sebeple icine deger atilmayan default bir constructor olusturmamiz gerekir.
 
@@ -43,8 +46,8 @@ public class HAraba {
 
 
     public String toString() {
-        return "Araba Ozellikleri " +
-                "\nmarka : " + marka +
+        return "Araba Ozellikleri " +      // Burada Code-Generate basligina gidip yazdiracagimz degerleri otomatik
+                "\nmarka : " + marka +     // olarak getirdik. Bu kolay bir yontemdir tek tek yazdirmaya geek yoktur
                 "\nmodel : " + model +
                 "\nyakit : " + yakit +
                 "\nyil : " + yil +

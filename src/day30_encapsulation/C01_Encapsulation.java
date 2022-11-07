@@ -8,6 +8,7 @@ public class C01_Encapsulation {
 
         AEncapsuleClass pers1= new AEncapsuleClass();
 
+
         // pers1.hastaneIsmi="Java Hastanesi"; Private oldugu icin gorulemez.
         // pers1.hastaUcreti=10000; Private oldugu icin method gorulemez ve kullanilamaz
         // pers1.hemsireAdresi="Ankara"; private oldugundan ulasilamaz
@@ -18,6 +19,7 @@ public class C01_Encapsulation {
 
         pers1.setHastaUcreti(500); // Buiraya bir deger yazmak sorundayiz.Sadece atama yapariz fakat yazdiramayiz.
         // Cunku setter methodu atama yapar fakat goremez
+
 
         // getter ve setter method'lari
         // bazen de erisimi sinirlandirmak icin degil
