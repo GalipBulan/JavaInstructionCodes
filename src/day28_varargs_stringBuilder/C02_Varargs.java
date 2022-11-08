@@ -4,6 +4,8 @@ public class C02_Varargs {
 
     public static void main(String[] args) {
 
+        // parametre sayisi degistikce bizden teklrar yeni bir method olusturmamizi ister
+
         topla(5,6);
         topla(5,3,8);
         topla(2,5,3,8);
@@ -12,9 +14,9 @@ public class C02_Varargs {
         topla();
         topla(2,5,3,8,7,4,3,56,7,98,67,6,56);
 
-        // Bir method da parametre sayisini sinirlandirmak istemezsek standart bir  varaible yerine varargs kullaniriz
+        // Bir method da parametre sayisini sinirlandirmak istemezsek standart bir  varaible yerine varargs kullaniriz.
         // Varargs data tururnun yanina ... koyuklarak deklare edilir
-        // int...  sayisi belirli olmayan int parametreler olan bir arraydir
+        // int...  sayisi belirli olmayan int parametreler alan bir arraydir.
     }
 
     public static void topla(int... sayilar) {

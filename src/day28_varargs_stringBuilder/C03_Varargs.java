@@ -4,7 +4,7 @@ public class C03_Varargs {
 
     public static void main(String[] args) {
 
-        sayi (3,4,5,6,7,8 );
+        method1 (3,4,5,6,7,8 );
 
         isim ("ali, ahmet, huseyin, yusuf");
         
@@ -12,7 +12,7 @@ public class C03_Varargs {
         isim();
 
     }
-    public static void sayi (int a, int b, int c,  int... sayilar) {
+    public static void method1 (int a, int b, int c,  int... sayilar) {
 
    }
    public static void isim (String... isimler ) {
