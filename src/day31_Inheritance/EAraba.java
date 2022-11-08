@@ -15,6 +15,4 @@ public class EAraba {
         System.out.println("Araba contructoru calisti");
     }
 
-
-
 }
