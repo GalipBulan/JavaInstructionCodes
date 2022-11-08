@@ -14,9 +14,14 @@ public class Csuv extends BinekArac{
         System.out.println(suv1.yil);   // 1990
         suv1.hiz(); // Binek araclarin hizi modele gore degisir
         suv1.teker();  // Binek araclar dort tekerlidir
+
+
         // Eger yeni deger atamazsak perend veya grandperend classinda atanmis degerleri otomatik alir
-
-
+        // Eger bir Child classin ayni isimli birden cok parend clasi varsa en son olusturulana gider.
+        // Bir Parand classin birden fazla Child class i olabilir fakar tersi mumkun degildir.
+        // Javada olusturulan tum classlar object classa baglidir. Fakat object class hicbirine bagli degildir.
+        // IS A
+        // HAS A
 
         Csuv suv2 = new Csuv();
 
