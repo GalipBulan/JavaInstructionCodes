@@ -12,5 +12,15 @@ public class BToyota extends Araba {
         // 15 süper (); gormedigimiz super calisir
 
         System.out.println("Parametreli Toyota constructor");  // 9   // 19
-    }   // 20
+
+    }
+    BToyota (String pt2) {
+
+        // super("Ahmet");
+
+        System.out.println();
+
+
+    }
+
 }

@@ -4,7 +4,7 @@ public class Corolla extends BToyota{
 
     Corolla (int pc) {  // 12
 
-        super (5);   // 13
+        super (5);   // 13  // Süper her zaman parant clastaki constructor u cagirir.
 
         System.out.println("Parametreli Corolla constructor calisti");  /// 21
 
@@ -15,7 +15,7 @@ public class Corolla extends BToyota{
 
     }
     Corolla(String str) {
-        this();
+        this();  // Sadece  bu klastaki String parametreli Cons u cagirir.
 
         System.out.println("String Parametreli Corolla constructor calisti");
     }
@@ -23,6 +23,7 @@ public class Corolla extends BToyota{
     public static void main(String[] args) {  // 1
 
         Corolla corolla1 = new Corolla();  // 2  // Default constructor calisir fakat biz gormeyiz
+
 
         // 3 super() ;
 
@@ -35,9 +36,6 @@ public class Corolla extends BToyota{
         Corolla corolla2 = new Corolla(3);  // 11
 
         Corolla corolla3 = new Corolla("Galip");
-
-
-
 
     }
 }

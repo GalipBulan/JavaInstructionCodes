@@ -10,5 +10,7 @@ public class Araba {
     Araba (int p1) {
 
         System.out.println("Parametresiz Araba constructor"); //
+
+        // Bir constuructor da gorunmeyen bir Call var ise orada kesinlikle super () gorunmeyen constuructor vardir.
     }
 }
