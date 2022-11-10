@@ -12,7 +12,6 @@ public class EKuslar extends  DHayvanlar {
         System.out.println("Kuslar gagalari vardir");
     }
     protected void cogalma() {
-
         System.out.println("Kuslar yumurtayla cogalirla");
     }
 }
