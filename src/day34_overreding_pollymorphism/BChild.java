@@ -2,7 +2,7 @@ package day34_overreding_pollymorphism;
 
 public class BChild extends AParent{
 
-    public void method1() {  // Overriddinn Method (Gecersiz kilan metdod)
+    public void method1() {  // Overriddinng Method (Gecersiz kilan metdod)
 
         System.out.println("Child class method1");
 
@@ -23,13 +23,16 @@ public class BChild extends AParent{
         System.out.println("Child class String parametreli method1");
 
     }
-    @Override // Java otomatik olusursa @@Override ifadesi koyar
+    @Override // Java otomatik olusursa @@Override ifadesi koyar.
     // @Override  kullanilmayan ovirriding isleminde parent class daki
     // overridden methodu silinirse hic bir sorun olaz.
     // Ancak @Override kullanilan ovviridding isleminde parent classdaki overrriding method silinirse
     // jaca CTE verir: Boylece overriding method un silinmesi engellenir
 
     public void method3() {  // Code-Genarete-Ovirride metthods kisaca da yapilabilir
+
+
+        System.out.println("Parent class method3");
 
         // Otomatik olusturmak icin maus bu classda olamlidir
         // super.method3(); Iki methodu da calistirir ilk olarak Parent sonra Child classi calistirir.
@@ -38,4 +41,11 @@ public class BChild extends AParent{
         // Eger ikisini de calistirmak istersek super.overridenMethodIsmi yazilir
 
     }
+    @Override
+
+    public void method4 (int a) {
+        super.method1(a);
+    }
 }
+
+
