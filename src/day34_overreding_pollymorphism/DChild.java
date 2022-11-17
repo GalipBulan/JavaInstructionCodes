@@ -5,7 +5,7 @@ public class DChild extends CParent {
     // Overreding kurallari
     // 1- access modofier method sinnature a dahil olmadigi icin overidden ve ovverriding
     // class modifier ler farkli olabilir
-    // Child parent isinirlandiramaz. Yani overrading methodun access modifier i daha genis olmalidir.
+    // Child Parent i isinirlandiramaz. Yani overrading methodun access modifier i esit veya daha genis olmalidir.
     // private-- default-- protected--public
 
     public void method1() {

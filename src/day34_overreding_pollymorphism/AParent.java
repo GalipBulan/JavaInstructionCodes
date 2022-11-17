@@ -3,9 +3,7 @@ package day34_overreding_pollymorphism;
 public class AParent {
     public static void main(String[] args) {
 
-
     }
-
     public void method1() {  // Overridden Method (Gecersiz kilinan metdod)
         System.out.println("Parent class method1");
     }

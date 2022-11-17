@@ -1,11 +1,12 @@
-package day35_exception;
+package day37_exceptions;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class C01_exception {
-    public static void main(String[] args) {
+public class C01_CheckedExceptions {
+
+    public static void main(String[] args)  {
         String dosyaYolu="src/ders36_checkedExceptions/Deneme.txt";
         int k=0;
         try {
@@ -38,8 +39,6 @@ public class C01_exception {
           ve asagidaki child exception islevsiz kalir
           java bu durumu kabul etmez, CTE verir
          */
-
-
-
     }
+
 }
