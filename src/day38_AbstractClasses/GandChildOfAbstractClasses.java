@@ -22,4 +22,6 @@ public class GandChildOfAbstractClasses extends FAbstractChilClassOfAbstractClas
     public void mecburiMethod2ChildAbstract() {
 
     }
+
+    //
 }
