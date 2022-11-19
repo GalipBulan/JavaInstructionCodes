@@ -1,45 +1,51 @@
 package day35_exception;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class C01_exception {
     public static void main(String[] args) {
-        String dosyaYolu="src/ders36_checkedExceptions/Deneme.txt";
-        int k=0;
+
+        // Kullanicidan bir tamsayi alip
+        // o sayinin karesini yazdiran
+        // kullanici ondalikli sayi girerse kullaniciya uyari yazisi yazdirip
+        // tekrar sayi isteyen bir method olusturun
+
+        sayiAlKaresiniyazdir();
+
+    }
+
+    public static void sayiAlKaresiniyazdir(){
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lutfen bir tamsayi giriniz");
+
+
+
         try {
-            FileInputStream fis =new FileInputStream(dosyaYolu);
-            while((k=fis.read())!=-1) {
-                System.out.print((char)k);
-            }
-        } catch (FileNotFoundException e) {
-            System.out.println("Dosya yolu yanlis veya dosya arizali");
-        } catch (IOException e) {
-            System.out.println("Dosya okuma veya yazma ile ilgili bir sorun var");
+            int girilenSayi = scan.nextInt();
+            /*
+                Eger ondalikli sayi girilirse 26.satir exception verecek ve
+                catch bloguna kadar olan diger kodlar calismayacak
+                catch blogu hata yakalandiginda ne yapmasini istedigimizi soyledimiz bolumdur
+                bu soruda istenen exception olustugunda yeniden deger istenmesi
+                biz de exception olustugunda yeniden method'u calistirdik
+                hata olmazsa catch blogu devreye girmez ve kod normal bir sekilde biter
+             */
+            System.out.print("Girdiginiz sayinin karesi : ");
+            System.out.println(girilenSayi*girilenSayi);
+        } catch (InputMismatchException e) {
+
+            System.out.println("Sana tam sayi degeri gir dedik :) ");
+            sayiAlKaresiniyazdir();
+
         }
-        /*
-           Bir kod calisirken birden fazla exception olusma ihtimali varsa
-           bu kodu calisir hale getirmek icin 4 ihtimal vardir
-           1- herbir exception ic ice try-catch bloklari kullanmak
-           2- Bir tane try blogu birden fazla catch blogu olusturmak
-           3- method signature'na tum exception ihtimallerini yazmak (exceptions handle edilmis olmaz)
-           4- eger muhtemel exceptiopn'larin tumunu kapsayan, daha genis kapsamli bir exception varsa
-              onu kullanmak
-         */
-        /*
-          2.ve 3.ihtimallerde olusmasi muhtemel exception'lar arasinda
-          parent-child iliskisi olup olmadigi kontrol edilmelidir.
-          aralarinda parent-child iliskisi yoksa
-          exception'lari istedigimiz sirada yazabiliriz
-          Ancak parent-child iliskisi varsa
-          once child, sonra parent yazilmalidir
-          aksi takdirde parent daha kapsamli oldugundan tum exception'lari yakalar
-          ve asagidaki child exception islevsiz kalir
-          java bu durumu kabul etmez, CTE verir
-         */
-
-
 
     }
 }
+
+
+
+
+
+
