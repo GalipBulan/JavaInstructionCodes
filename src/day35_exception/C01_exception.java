@@ -39,6 +39,8 @@ public class C01_exception {
             System.out.println("Sana tam sayi degeri gir dedik :) ");
             sayiAlKaresiniyazdir();
 
+            System.out.println();
+
         }
 
     }

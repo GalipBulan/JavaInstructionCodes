@@ -14,9 +14,9 @@ public class C01_CheckedExceptions {
             while((k=fis.read())!=-1) {
                 System.out.print((char)k);
             }
-        } catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) { // Ilk olarak Child yakalar
             System.out.println("Dosya yolu yanlis veya dosya arizali");
-        } catch (IOException e) {
+        } catch (IOException e) { // Child yakalayamadigini Parent yakalar
             System.out.println("Dosya okuma veya yazma ile ilgili bir sorun var");
         }
         /*
@@ -39,6 +39,8 @@ public class C01_CheckedExceptions {
           ve asagidaki child exception islevsiz kalir
           java bu durumu kabul etmez, CTE verir
          */
+
+        // Exceptin>IOException>FileNotFoundException
     }
 
 }

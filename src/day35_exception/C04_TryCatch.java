@@ -29,7 +29,10 @@ public class C04_TryCatch {
                 sayilarinToplami+=girilenSayi;
                 sayac++;
 
+
             } catch (InputMismatchException e) {
+
+                System.out.println("Kardesim adam gibi sayi girsene:))");
 
                 String str= scan.next();
                 if (str.equalsIgnoreCase("Q")){
