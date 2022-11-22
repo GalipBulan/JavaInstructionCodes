@@ -19,6 +19,22 @@ public class C06_ThrowKeyword {
             } catch (IllegalArgumentException e) {
                 e.printStackTrace();
                 System.out.println("yas sifir veya negatif OLAMAZ");
+
+            }finally {
+                System.out.println("Finally blok calisti");
+
+                // Finally blogu her zaman try catch ile birlikte kullanilir
+                // try chach ister calissin ister calismasin finnaly her zaman calisir
+                // Finally riskli durumlarda calismasini istedigimiz kodlar icin kullanilir
+                // Bir try blogu ile hic chachblogu kullanmadan direkt finally kullanilabilir.
+
+                try {
+                    System.out.println();
+                } finally {
+                    System.out.println(" Finnally blok her zaman calisir");
+                }
+
+
             }
         }
     }
