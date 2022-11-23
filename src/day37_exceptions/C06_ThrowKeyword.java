@@ -1,10 +1,11 @@
 package day37_exceptions;
 
+import javax.imageio.IIOException;
 import java.util.Scanner;
 
 public class C06_ThrowKeyword {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         // Kullanicidan yasini isteyin
         // eger 0 veya negatif bir sayi girerse
         // uyari olaral IllegalArgumentException uyarisi verin
@@ -16,6 +17,7 @@ public class C06_ThrowKeyword {
         if (yas<=0){
             try {
                 throw new IllegalArgumentException();
+
             } catch (IllegalArgumentException e) {
                 e.printStackTrace();
                 System.out.println("yas sifir veya negatif OLAMAZ");
@@ -29,7 +31,7 @@ public class C06_ThrowKeyword {
                 // Bir try blogu ile hic chachblogu kullanmadan direkt finally kullanilabilir.
 
                 try {
-                    System.out.println();
+                   throw new StringIndexOutOfBoundsException();
                 } finally {
                     System.out.println(" Finnally blok her zaman calisir");
                 }
@@ -38,6 +40,5 @@ public class C06_ThrowKeyword {
             }
         }
     }
-
 
 }

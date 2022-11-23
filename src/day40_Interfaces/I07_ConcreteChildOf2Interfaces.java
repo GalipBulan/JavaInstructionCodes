@@ -26,6 +26,7 @@ public class I07_ConcreteChildOf2Interfaces implements I05_Interface,I06_Interfa
         System.out.println(I06_Interface.MESAJ);
         System.out.println(I05_Interface.SAYI);
         System.out.println(SAYI2);
+        System.out.println(I05_Interface.MESAJ);
     }
 
     @Override

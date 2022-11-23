@@ -8,10 +8,10 @@ public interface I05_Interface {
 
     void method1();
 
-    //int method2();
+    //int method2();//
     String method2();
     // I07  I05 ve I06 interface'lerini implements ettiginde
-    //      conflict olustugu icin return type'i String yaptik
+    //      conflict olustugu icin return type'i String yaptik.
 
     String method3();
 

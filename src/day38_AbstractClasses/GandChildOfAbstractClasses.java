@@ -2,6 +2,10 @@ package day38_AbstractClasses;
 
 public class GandChildOfAbstractClasses extends FAbstractChilClassOfAbstractClass {
 
+    // Abstract bir silsileden sonra gelen
+    // ilk concrete class
+    // atalarindaki concrete yapilmayan tum abstract method'lari
+    // IMPLEMENT ETMEK ZORUNDADIR
 
     @Override
     public void mecburuMethod1() {

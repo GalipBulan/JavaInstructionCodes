@@ -1,11 +1,10 @@
 package day40_Interfaces;
 
-import day39_abstractClass.Interface01;
-
-public interface I03_InterfaceChildOfinterface extends Interface01 {
+public interface I03_InterfaceChildOfinterface extends I01_Interface {
 
     // Eger bir İnterface'i baska bir interface'in child'i yapmak isterseniz
     // extends keyword kullanılır.
+    // Bir interface concrete class'i INHERIT EDEMEZ
 
 
     int method2();
@@ -13,6 +12,11 @@ public interface I03_InterfaceChildOfinterface extends Interface01 {
     String method3();
 
     void method1();
+
+    // interface bir child parent interface'deki
+    // abstract methodu override edebilir ama
+    // ikisinin de body'si olmadigindan
+    // bu islemin bir anlami yoktur
 
     int method4();
 

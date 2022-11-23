@@ -7,22 +7,23 @@ public class I02_ConcreteChildClassOfInterface implements I01_Interface{
 
         System.out.println(MESAJ); // Hello Interface
         // sayi=40; yazili olmasa da Interface icerisinde oldugundan
-        //          final'dir ve atama yapilamaz
+        //          final'dir ve Final veriable atama yapilamaz.
 
         System.out.println(Integer.MAX_VALUE);
         // normalde variable isimleri, kucuk harfle baslar ve camelCase kullanilir
         // ancak java da ortak kabul olarak
         // static ve final olarak isaretlenen variable isimleri tamamen BUYUK HARF ile yazilir
 
+        System.out.println(Math.PI); // 3.141592653589793
 
-        System.out.println(Math.PI);
+        System.out.println(SAYI2);  // 20
+
+        System.out.println(SAYI); // 20
     }
 
     @Override
     public void method1() {
-
     }
-
     @Override
     public int method2() {
         return 0;
@@ -31,5 +32,11 @@ public class I02_ConcreteChildClassOfInterface implements I01_Interface{
     @Override
     public String method3() {
         return null;
+    }
+
+    @Override
+    public int method4() {
+
+        return 0;
     }
 }
