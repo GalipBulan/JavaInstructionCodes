@@ -1,4 +1,4 @@
-package day40_Interfaces;
+package day40_interfaces;
 
 public class I07_ConcreteChildOf2Interfaces implements I05_Interface,I06_Interface {
 

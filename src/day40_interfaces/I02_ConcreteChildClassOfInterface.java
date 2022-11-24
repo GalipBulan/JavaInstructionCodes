@@ -1,4 +1,4 @@
-package day40_Interfaces;
+package day40_interfaces;
 
 public class I02_ConcreteChildClassOfInterface implements I01_Interface{
     // Bir class'i bir interface'in child'i yapmak icin implements keyword kullanilir

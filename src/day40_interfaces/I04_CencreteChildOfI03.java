@@ -1,4 +1,4 @@
-package day40_Interfaces;
+package day40_interfaces;
 
 public class I04_CencreteChildOfI03 implements I03_InterfaceChildOfinterface {
 

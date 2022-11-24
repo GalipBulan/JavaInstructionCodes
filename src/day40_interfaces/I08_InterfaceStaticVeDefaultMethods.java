@@ -1,4 +1,4 @@
-package day40_Interfaces;
+package day40_interfaces;
 
 public interface I08_InterfaceStaticVeDefaultMethods {
 

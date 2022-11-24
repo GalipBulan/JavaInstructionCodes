@@ -1,4 +1,4 @@
-package day40_Interfaces;
+package day40_interfaces;
 
 public class I09_ChildOfI08 implements I08_InterfaceStaticVeDefaultMethods {
 

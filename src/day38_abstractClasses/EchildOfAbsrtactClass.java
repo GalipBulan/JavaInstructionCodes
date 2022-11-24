@@ -1,4 +1,4 @@
-package day38_AbstractClasses;
+package day38_abstractClasses;
 
 public class EchildOfAbsrtactClass extends CParentAbstractClass{
 
