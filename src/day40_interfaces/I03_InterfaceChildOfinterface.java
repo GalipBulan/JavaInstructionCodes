@@ -4,7 +4,7 @@ public interface I03_InterfaceChildOfinterface extends I01_Interface {
 
     // Eger bir İnterface'i baska bir interface'in child'i yapmak isterseniz
     // extends keyword kullanılır.
-    // Bir interface concrete class'i INHERIT EDEMEZ
+    // Bir interface concrete class'i INHERIT EDEMEZ.
 
 
     int method2();
@@ -16,7 +16,7 @@ public interface I03_InterfaceChildOfinterface extends I01_Interface {
     // interface bir child parent interface'deki
     // abstract methodu override edebilir ama
     // ikisinin de body'si olmadigindan
-    // bu islemin bir anlami yoktur
+    // bu islemin bir anlami yoktur.
 
     int method4();
 

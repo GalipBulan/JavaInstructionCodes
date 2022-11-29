@@ -19,21 +19,21 @@ public class C02_Iterator {
         Iterator it1= sayilar.iterator();
 
         System.out.println(it1.hasNext()); // true
-        // "hasNext()" metodunda Iterator List icine konumlanir ve kendinden
-        // sonra bir deger olup olmadigini true veya fals olarak yazdirir.
+        // "hasNext()" metodunda Iterator List icinde en basa konumlanir ve bu degerin uzerinde gecerek degeri yuklenir
+        // Kendinden sonra bir deger olup olmadigini true veya false olarak yazdirir.
 
-        System.out.println(it1.next()); // 10
-
-        System.out.println(it1.hasNext()); // true
-        System.out.println(it1.next()); // 10
+        System.out.println(it1.next()); // 10 // "next" methodu ile Iteratorun yuklendigi degeri yazdiririz.
 
         System.out.println(it1.hasNext()); // true
-        System.out.println(it1.next()); // 10
+        System.out.println(it1.next()); // 20
 
         System.out.println(it1.hasNext()); // true
-        System.out.println(it1.next()); // 10
+        System.out.println(it1.next()); // 30
 
         System.out.println(it1.hasNext()); // true
+        System.out.println(it1.next()); // 40
+
+        System.out.println(it1.hasNext()); // false
 
 
         System.out.println("=============");

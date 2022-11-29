@@ -3,7 +3,8 @@ package day40_interfaces;
 public interface I01_Interface {
 
     // Interfaceler ozel yapi olduklarindan yazilsa da yazilmasa da tum verableler
-    // public, static ve final dir.
+    // public, static ve final dir. YAzsak bile java mat renk yapar.
+    // Cunku yazmaya gerek yoktur.
 
     static String mesaj ="Hello Interface";
     public static boolean guzelMi= true;
