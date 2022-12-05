@@ -4,10 +4,10 @@ public class C01_Encapsulation {
 
     public static void main(String[] args) {
 
+
         // Encapsulation = Data Haiding olarak da kullanilir.
 
         AEncapsuleClass pers1= new AEncapsuleClass();
-
 
         // pers1.hastaneIsmi="Java Hastanesi"; Private oldugu icin gorulemez.
         // pers1.hastaUcreti=10000; Private oldugu icin method gorulemez ve kullanilamaz

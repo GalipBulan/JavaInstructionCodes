@@ -36,13 +36,6 @@ public class HArabaRanner {
 
         System.out.println(arb6);
 
-
-
-
-
-
     }
-
-
 
 }

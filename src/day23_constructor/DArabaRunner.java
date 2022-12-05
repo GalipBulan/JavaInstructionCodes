@@ -43,17 +43,7 @@ public class DArabaRunner {
        arb4.yakit ="Elektro";
        arb4.fiyat = 24444;
 
-        System.out.println(arb4.marka );
-
-
-
-
-
-
-
-
-
-
+       System.out.println(arb4.marka );
 
     }
 }
